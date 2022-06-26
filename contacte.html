@@ -5,55 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacte</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="assets/1015.jpg" alt="Logo">
+    <header class="topbar">
+        <a href="#">
+        <img src="assets/Vector.svg" alt="Logo" height="20">
+        </a>
         <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Inici</a>
-                </li>
-                <li>
-                    <a href="cv.html" target="_blank">CV</a>
-                </li>
-                <li>
-                    <a href="contacte.html">Contacte</a>
-                </li>
-            </ul>
+           <a href="index.html">Inici</a>
+           <a href="cv.html">CV</a>
+           <a href="contacte.html">Contacte</a>
         </nav>
-    </header>
+   </header>
 
-    
-    <h1>Contacte</h1>
+   <section class="hero">
+       <h1>Contacte</h1>
+   </section>
     
         <section id="Contacte">
-    
-            <img src="https://picsum.photos/id/1025/200/300" alt="">
 
-            <p>Vols contactar-me?</p>
+            <h2 class="title">Vols contactar-me?</h2>
     
          <form action="">
+         <div class="label">
             <label for="f_name">El teu nom</label>
+         </div>
+         <div class="input">
             <input type="text" id="f_name" name="name" placeholder="El teu nom"><br><br>
-    
+         </div>
+         <div class="label">
             <label for="f_email">Email:</label>
+        </div>
+        <div class="input">
             <input type="text" id="f_email" name="email" placeholder="El teu email"><br><br>
-            
+        </div>
+        <div class="label">  
             <label for="f_tarea">Comentaris:</label>
+        </div>
+        <div class="input">
             <textarea name="comments" id="f_tarea" cols="30" rows="10"></textarea><br><br>
-
+        </div>
+        <div class="label">
             <label for="f_accept">Accepto el tractament de les meves dades</label>
             <input type="checkbox" id="f_accept" name="accept" ><br><br>
-
+        </div>
+        <div class="input">
             <button type="button" onclick="alert('Moltes gràcies!')">Enviar el formulari</button>
-         </form>
+        </div>
+        </form>
         </section>
-    <footer>
-        <img src="assets/logo-facebook.svg" alt="Facebook">
-        <img src="assets/logo-instagram.svg" alt="Instagram">
-        <img src="assets/logo-linkedin.svg" alt="Linkedin">
-        <img src="assets/logo-twitter.svg" alt="Twitter">
-    </footer>
+        <footer class="bottombar">
+            <img src="assets/logo-facebook.svg" alt="Facebook" height="40">
+            <img src="assets/logo-instagram.svg" alt="Instagram" height="40">
+            <img src="assets/logo-linkedin.svg" alt="Linkedin" height="40">
+            <img src="assets/logo-twitter.svg" alt="Twitter" height="40">
+        </footer>
 </body>
 </html>

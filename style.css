@@ -1,0 +1,234 @@
+
+body {
+    margin: 0px;
+    background-color: lightgray;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    text-shadow: 0 0 4px black;
+}
+
+section {
+    padding: 1rem ;
+}
+
+.title {
+    color: blue;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.topbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem;
+background-color:black;
+}
+nav {
+display: flex;
+gap: 1rem;
+}
+
+nav a {
+color: whitesmoke;
+text-decoration: none;
+font-size: large;
+}
+    
+.hero {
+    height: auto;
+    color: whitesmoke;
+    font-size: x-large;
+    background-image: url('assets/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    place-content: center;
+}   
+
+.sobre_mi{
+    display: flex;
+    justify-content: center;
+    gap: 3rem; 
+    margin: 1rem auto;
+    width: 90vw;
+    flex: 1 0 15rem;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    width: 90vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1 0 15rem;
+
+    border: 1px solid grey;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 5px;
+}
+.card > p{
+    padding: 1rem;
+}
+
+.card > button{
+    margin: 1rem;
+    padding: 0.5 rem 1 rem;
+}
+
+.experiences {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    gap: 5rem;
+    padding: 1rem;
+    background-color: black;
+    color: whitesmoke;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    width: 90vw;
+}
+
+.experience1 {
+    display: flex;
+    flex: 1 0 15rem;
+    gap: 1rem;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.experience2 {
+    display: flex;
+    flex: 1 0 15rem;
+    gap: 1rem;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.experience3 {
+    display: flex;
+    flex: 1 0 15rem;
+    gap: 1rem;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.aficions {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    width: 90vw;
+}
+
+.idiomes {
+    display: flex;
+    flex: 1 0 15rem;
+    gap: 1rem;
+    background-color: grey;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.viatges {
+    display: flex;
+    flex: 1 0 15rem;
+    gap: 1rem;
+    background-color: grey;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.esport {
+    display: flex;
+    flex: 1 0 15rem;
+    gap: 1rem;
+    background-color: grey;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.bottombar {
+    display: flex;
+    margin: 4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.label {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    gap: .5rem;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.first {
+    background-color: lightslategray;
+}
+
+.index {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none; 
+}
+
+.index li a {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.dades {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+table {
+    margin: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th, 
+td {
+    padding: 1rem;

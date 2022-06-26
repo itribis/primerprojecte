@@ -5,52 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1 id="cv">CV</h1>
-    <h2 id="index">INDEX</h2>
-         <p><a href="#dades_personals">Anar a la secció dades personals</a></p>
-         <p><a href="#idiomes">Idiomes</a></p>
-         <p><a href="#estudis">Estudis</a></p>
-         <p><a href="#laboral">Laboral</a></p>
+   <header class="topbar">
+      <a href="#">
+      <img src="assets/Vector.svg" alt="Logo" height="20">
+      </a>
+      <nav>
+         <a href="index.html">Inici</a>
+         <a href="cv.html">CV</a>
+         <a href="contacte.html">Contacte</a>
+      </nav>
+ </header>
 
-     <h2 id="dades_personals">Dades Personals</h2>
+ <section class="hero">
+   <h1 id="cv">Currículum Vitae</h1>
+ </section>
+ <section>
+    <h2 class="title" id="index">Index</h2>
+    <ul class="index">
+      <li><a href="#dades_personals"><img src="Assets/contact.svg" width="25" height="25"><span>Dades personals</span></a></li>
+      <li><a href="#idiomes"><img src="Assets/lang.svg" width="25" height="25"><span>Idiomes</span></a></li>
+      <li><a href="#estudis"><img src="assets/books.svg" width="25" height="25"><span>Estudis</span></a></li>
+      <li><a href="#laboral"><img src="assets/screen.svg" width="25" height="25"><span>Laboral</span></a></li>
+    </ul>
+  </section>
+
+  <section class="first">
+     <h2 class="title" id="dades_personals">Dades Personals</h2>
      <div class="dades">
-         <p><span style="color:blue;font-weight:bold">Nathalie Sphinx</span></p>
-         <p>21/08/1989 Queenstown</p>
-         <p>Plaça Amèrica, Olot</p>
+        <div>
+         <p><strong>Nom:</strong> Nathalie Sphinx</p>
+         <p><strong>Data i lloc de naixement:</strong> 21/08/1989 Queenstown</p>
+         <p><strong>Adreça:</strong> Plaça Amèrica, Olot</p>
+        </div>
+        <img src="Assets/portrait.jpg" alt="portrait" height="300">
        </div>
+   </section>
 
-       jjhhjk
-       
-     <h2 id="idiomes">Idiomes</h2>    
+   <section>
+     <h2 class="title" id="idiomes">Idiomes</h2>    
          <table>
-         <thead>
          <tr>
             <th>Idioma</th>
             <th>Nivell baix</th>
             <th>Nivell mig</th>
             <th>Nivell alt</th>
-            <th>Nadiu</th>
+            <th>Nivell nadiu</th>
          </tr>
-         </thead>
          <tr>
             <td>Català</td>
             <td> </td>
             <td> </td>
             <td>X</td>
+            <td> </td>
          </tr>
          <tr>
             <td>Castellà</td>
             <td> </td>
             <td> </td>
             <td>X</td>
+            <td> </td>
          </tr>
          <tr>
             <td>Anglès</td>
             <td> </td>
             <td> </td>
             <td>X</td>
+            <td> </td>
          </tr>
          <tr>
             <td>Rus</td>
@@ -64,46 +87,90 @@
             <td> </td>
             <td> </td>
             <td>X</td>
+            <td> </td>
          </tr>
          <tr>
             <td>Alemany</td>
             <td> </td>
             <td> </td>
             <td>X</td>
+            <td> </td>
          </tr>
          <tr>
             <td>Italià</td>
             <td> </td>
             <td>X</td>
+            <td> </td>
+            <td> </td>
          </tr>
          <tr>
             <td>Xinès</td>
             <td>X</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
          </tr>
          </table>
-     <h2 id="estudis">Estudis</h2>
-     <ul>
-         <li><strong>POSTGRAU EN NEGOCIS INTERNACIONALS</strong>
-         <br> Universitat de Vic, <i>2012-2013</i></li>
-         <li><strong>MÀSTER EN LEA (IDIOMES ESTRANGERS APLICATS A LA 
-            GESTIÓ DEL COMERÇ INTERNACIONAL) </strong>
-         <br> Université Toulouse II Le Mirail, <i>2011-2012</i></li>
-         <li><strong>LLICENCIADA EN LOGISTICA I COMERÇ INTERNACIONAL </strong>
-         <br> Universitat d’Economia i Finances de Sant Petersburg, <i>2006-2011</i></li>
-     </ul>
-     <h2 id="laboral">Laboral</h2>
-     <ul>
-         <li><strong>SALES MANAGER A INKO21 </strong> <i>(Banyoles, 2021-2022)</i>
-         <br>  Prospecció del mercat nacional de taquilles intel·ligents Drop Point i 
-         sistemes d'elevació Haacon, implementació del Suite CRM </li>
-         <li><strong>EXPORT SALES MANAGER A GARCIA DE POU </strong> <i>(Ordis, 2019-2021)</i>
-         <br>  Gestió comercial i administrativa dels comptes de clients (Zona 
-         Alemanya, Benelux, Suïssa + Europa de l'Est), preparació d'ofertes comercials, 
-         participació a fires internacionals i visites als clients </li>
-         <li><strong>PROFESSORA D'IDIOMES (ANGLÈS, FRANCÈS I RUS) A CLAUDE S.L. </strong> 
-         <i>(Olot, 2014-2018)</i>
-         <br>  Classes individuals i en grup a l'escola i a les empreses, traducció de documents 
-         (del castellà/català al anglès/rus)  </li>
-    </ul>
+   </section>
+
+   <section class="first">
+      <h2 class="title" id="estudis">Informació acadèmica</h2>
+      <ul class="info-list">
+         <li>
+             <p>
+             <strong>POSTGRAU EN NEGOCIS INTERNACIONALS</strong>
+             <br> Universitat de Vic, <i>2012-2013</i>
+             </p>
+         </li>
+         <li>
+             <p>
+             <strong>MÀSTER EN LEA (IDIOMES ESTRANGERS APLICATS A LA 
+             GESTIÓ DEL COMERÇ INTERNACIONAL) </strong>
+             <br> Université Toulouse II Le Mirail, <i>2011-2012</i>
+             </p>
+         </li>
+         <li>
+             <p>
+             <strong>LLICENCIADA EN LOGISTICA I COMERÇ INTERNACIONAL </strong>
+             <br> Universitat d’Economia i Finances de Sant Petersburg, <i>2006-2011</i>
+             </p>
+         </li>
+      </ul>
+   </section>
+
+   <section>
+      <h2 class="title" id="laboral">Informació laboral</h2>
+      <ul class="info-list">
+         <li>
+             <p>
+             <strong>SALES MANAGER </strong> <i>(Banyoles, 2021-2022)</i>
+             <br>  Prospecció del mercat nacional de taquilles intel·ligents Drop Point i 
+             sistemes d'elevació Haacon, implementació del Suite CRM 
+             </p>
+         </li>
+         <li>
+             <p>
+             <strong>EXPORT SALES MANAGER </strong> <i>(Figueres, 2019-2021)</i>
+             <br>  Gestió comercial i administrativa dels comptes de clients (Zona 
+             Alemanya, Benelux, Suïssa + Europa de l'Est), preparació d'ofertes comercials, 
+             participació a fires internacionals i visites als clients
+             </p>
+         </li>
+         <li>
+              <p><strong>PROFESSORA D'IDIOMES (ANGLÈS, FRANCÈS I RUS)</strong> 
+              <i>(Olot, 2014-2018)</i>
+              <br>  Classes individuals i en grup a l'escola i a les empreses, traducció de documents 
+              (del castellà/català al anglès/rus)
+             </p>
+         </li>
+      </ul>
+   </section>
+
+   <footer class="bottombar"
+      <img src="assets/logo-facebook.svg" alt="Facebook" height="40">
+      <img src="assets/logo-instagram.svg" alt="Instagram" height="40">
+      <img src="assets/logo-linkedin.svg" alt="Linkedin" height="40">
+      <img src="assets/logo-twitter.svg" alt="Twitter" height="40">
+     </footer>
 </body>
 </html>
